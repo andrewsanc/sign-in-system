@@ -9,7 +9,7 @@ export default function Login() {
         <input type='password' placeholder='Password' />
         <div className='btn-container'>
           <button className='btn-primary'>Login</button>
-          <button className='secondary'>Register</button>
+          <button className='btn-secondary'>Register</button>
         </div>
       </form>
     </>

@@ -47,12 +47,9 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.btn-secondary:hover {
+  outline: 2px solid #646cff;
 }
 
 .btn-primary {
@@ -60,7 +57,7 @@ button:focus-visible {
 }
 
 .btn-primary:hover {
-  border-color: #fff;
+  outline: 2px solid #fff;
 }
 
 @media (prefers-color-scheme: light) {

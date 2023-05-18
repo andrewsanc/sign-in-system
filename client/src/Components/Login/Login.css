@@ -7,6 +7,11 @@ input {
   border: none;
 }
 
+input:focus,
+:focus-visible {
+  outline: #fff 2px solid;
+}
+
 .btn-container {
   display: flex;
   gap: 10px;
